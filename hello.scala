@@ -1,4 +1,8 @@
+
+
 def hello(name: String): Unit =
   println(s"Hello, $name!")
 
-hello("Jeremy")
+@main
+def run(): Unit =
+  hello("Jeremy")
